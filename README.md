@@ -1,4 +1,4 @@
-# Kenyatta National Hospital (KNH) Digital Infrastructure - Group 7
+# Kenyatta National Hospital (KNH) Digital Infrastructure 
 
 A secure shell scripting solution for managing and analyzing data from critical hospital sensors, including Heart Rate, Temperature, and Water Usage monitoring.
 
@@ -23,26 +23,14 @@ Our shell scripts perform the following tasks:
 - **hospital_admin.sh** → Creates directories and applies security permissions.
 - **hospital_analysis.sh** → Detects critical patient readings and analyzes water usage.
 - **hospital_archive.sh** → Archives logs and recreates fresh log files.
-
----
-
-## Team Roles
-
-| Member | Role | Responsibility |
-|----------|----------|----------|
-| @ydeng-bot | Architect | Initialize system directories |
-| @jgatetekez-code| Security Lead | Apply permissions to active logs |
-| @Maxime615| Orchestrator | Execute setup workflow |
-| @tmachingur-code | Archivist | Archive and rotate logs |
-| @kelvinbruce110 | Clinical Analyst | Process critical vitals |
-| @airumva2-sudo| Facility Auditor | Audit ICU water usage |
+```
 
 ---
 
 ## Repository Structure
 
 ```text
-Coding_lab_Group7/
+Coding-lab_Group7/
 ├── hospital_admin.sh
 ├── hospital_analysis.sh
 ├── hospital_archive.sh
@@ -58,8 +46,8 @@ Coding_lab_Group7/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/kelvinbruce110/Coding_lab_Group7
-cd Coding_lab_Group7
+git clone https://github.com/tmachingur-code/Coding_lab_Group7
+cd Coding-lab_Group7
 ```
 
 ### Initialize Environment
